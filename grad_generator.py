@@ -1,5 +1,6 @@
 grad_len_per_color = 300
 
+
 def create_color_palette(hex_list):
     color_list = []
     for i in range(0, len(hex_list) - 1):

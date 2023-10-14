@@ -31,7 +31,7 @@ def draw_sqrs(count, height, width, separator, lst):
 pygame.init()
 
 
-"""settings"""
+"""SETTINGS"""
 colors_hex = [
               '#808080', '#604d4d', '#9d786c', '#b5735c', '#ad3737', '#cd0000',
               '#ff0000', '#ff6600', '#ff7f00', '#ffa64d', '#e6ae22', '#fffd01', '#ffffe6', '#ffffff'
@@ -40,14 +40,12 @@ colors_hex = [
 full_color_palette = create_color_palette(colors_hex)
 
 display_color = (10, 10, 10)
-color_num = 0
 
 number_of_sqr = 200
 pen_size = 40
 cool_speed = 5
 heat_speed = 30
 full_cool = True
-grad_len_per_color = 100
 sep = 0
 sqr_width = 5
 sqr_height = 5
